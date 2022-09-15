@@ -2,12 +2,12 @@
 #define MODEL_H
 
 // Third-party Headers
-#include "thirdparty/glad/glad.h"
-#include "thirdparty/assimp/Importer.hpp"
-#include "thirdparty/assimp/scene.h"
-#include "thirdparty/assimp/postprocess.h"
-#include "thirdparty/glm/glm.hpp"
-#include "thirdparty/glm/gtc/matrix_transform.hpp"
+#include "glad/glad.h"
+#include "assimp/Importer.hpp"
+#include "assimp/scene.h"
+#include "assimp/postprocess.h"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
 
 // Custom Headers
 #include "object/Mesh.h"

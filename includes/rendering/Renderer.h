@@ -2,8 +2,8 @@
 #define RENDERER_H
 
 // Third-party Headers
-#include "thirdparty/glad/glad.h"
-#include "thirdparty/GLFW/glfw3.h"
+#include "glad/glad.h"
+#include "GLFW/glfw3.h"
 
 // Custom Headers
 #include "Config.h"

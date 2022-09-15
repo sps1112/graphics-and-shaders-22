@@ -1,7 +1,7 @@
 // Third-party Headers
-#include "thirdparty/glm/glm.hpp"
-#include "thirdparty/glm/gtc/matrix_transform.hpp"
-#include "thirdparty/glm/gtc/type_ptr.hpp"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
 // Custom Headers
 #include "Config.h"
@@ -183,9 +183,9 @@ int main()
         actors.push_back(rc);
     }
 
-    ModelActor *backpack = new ModelActor(FileSystem::get_path("resources/models/backpack/backpack.obj"), "Backpack", enableGamma);
-    backpack->mat.shader = MODEL_SHADER_3D;
-    actors.push_back((RenderActor *)backpack);
+    // ModelActor *backpack = new ModelActor(FileSystem::get_path("resources/models/backpack/backpack.obj"), "Backpack", enableGamma);
+    // backpack->mat.shader = MODEL_SHADER_3D;
+    // actors.push_back((RenderActor *)backpack);
     ModelActor *teapot = new ModelActor(FileSystem::get_path("resources/models/teapot/teapot.obj"), "Teapot", enableGamma);
     teapot->mat.shader = MODEL_SHADER_3D;
     teapot->tr.position = glm::vec3(-3.0f, 0.0f, -3.0f);
